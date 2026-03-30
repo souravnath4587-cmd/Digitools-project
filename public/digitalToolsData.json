@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes instantly with AI-powered suggestions.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI content suggestions"
+    ],
+    "icon": "resume"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Build a stunning developer portfolio with ready-made templates.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "10+ modern templates",
+      "Fully responsive",
+      "Easy customization",
+      "SEO optimized"
+    ],
+    "icon": "portfolio"
+  },
+  {
+    "id": 3,
+    "name": "Social Media Scheduler",
+    "description": "Schedule and manage posts across all platforms in one place.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Multi-platform posting",
+      "Auto scheduling",
+      "Analytics dashboard",
+      "Content calendar"
+    ],
+    "icon": "calendar"
+  },
+  {
+    "id": 4,
+    "name": "Logo Maker Pro",
+    "description": "Design professional logos with drag-and-drop tools.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "500+ logo templates",
+      "Custom colors & fonts",
+      "Download in HD",
+      "Brand kit included"
+    ],
+    "icon": "logo"
+  },
+  {
+    "id": 5,
+    "name": "UI Design System",
+    "description": "Complete UI kit for building modern web and mobile apps.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "200+ components",
+      "Figma & React support",
+      "Dark/light mode",
+      "Regular updates"
+    ],
+    "icon": "design"
+  },
+  {
+    "id": 6,
+    "name": "Email Marketing Tool",
+    "description": "Create and send beautiful email campaigns بسهولة.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Drag & drop builder",
+      "Email automation",
+      "Subscriber management",
+      "Analytics reports"
+    ],
+    "icon": "email"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Toolkit",
+    "description": "All-in-one toolkit for freelancers to manage clients and projects.",
+    "price": 25,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Invoice generator",
+      "Project tracker",
+      "Client management",
+      "Time tracking"
+    ],
+    "icon": "toolkit"
+  },
+  {
+    "id": 8,
+    "name": "Stock Image Library",
+    "description": "Unlimited access to high-quality stock images and assets.",
+    "price": 8,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "10,000+ images",
+      "Royalty-free",
+      "Download unlimited",
+      "New assets weekly"
+    ],
+    "icon": "image"
+  }
+]

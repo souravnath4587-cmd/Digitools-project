@@ -3,7 +3,6 @@ import Feature from "./Feature";
 
 const PricingCard = ({ pricingPromise }) => {
   const promiseData = use(pricingPromise);
-  console.log(promiseData);
 
   return (
     <div className="flex flex-col gap-4 md:flex-row justify-between items-center">
