@@ -1,11 +1,13 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import "./App.css";
 import Banner from "./components/banner/Banner";
 import Navbar from "./components/navbar/Navbar";
 import ActiveUser from "./components/sections/ActiveUser";
-import DigitalProducts from "./components/sections/DigitalProducts";
+import DigitalProducts from "./components/ui/DigitalProducts";
 import Steps from "./components/sections/Steps";
 import Transparent from "./components/transparents-pricing/Transparent";
+import CartProducts from "./components/ui/CartProducts";
+import Tab from "./components/ui/Tab";
 
 const fetchProducts = async () => {
   const res = await fetch("/digitalToolsData.json");
@@ -17,11 +19,13 @@ const fetchProducts = async () => {
 
 function App() {
   const promiseProducts = fetchProducts();
+  const [selectedTab, setSelectedTab] = useState("products");
+  const [selectedProducts, setSelectedProducts] = useState([]);
 
   return (
     <>
       {/* Navbar Components  */}
-      <Navbar />
+      <Navbar selectedProducts={selectedProducts} />
       {/* Banner Components  */}
       <Banner />
       {/* Active User Section  */}
@@ -36,17 +40,27 @@ function App() {
               designed <br /> to boost your productivity and creativity.
             </p>
           </div>
-          <div className="sectionTab py-2 px-4 rounded-full flex flex-row justify-center items-center w-44 mx-auto shadow-2xl">
-            <button className="btn btn-primary rounded-full border-0">
-              Products
-            </button>
-            <button className="btn rounded-full border-0">Cart</button>
-          </div>
-          <div className="productsSection my-8">
-            <Suspense fallback={"Product data is loading"}>
-              <DigitalProducts promiseProducts={promiseProducts} />
-            </Suspense>
-          </div>
+          <Tab
+            selectedTab={selectedTab}
+            setSelectedTab={setSelectedTab}
+            selectedProducts={selectedProducts}
+          />
+          {selectedTab === "products" ? (
+            <div className="productsSection my-8">
+              <Suspense fallback={"Product data is loading"}>
+                <DigitalProducts
+                  selectedProducts={selectedProducts}
+                  setSelectedProducts={setSelectedProducts}
+                  promiseProducts={promiseProducts}
+                />
+              </Suspense>
+            </div>
+          ) : (
+            <div>
+              <p>There is no cart in this section .....</p>
+              <CartProducts selectedProducts={selectedProducts} />
+            </div>
+          )}
         </div>
       </section>
 
