@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "plan": "Starter",
+    "price": 0,
+    "billing": "month",
+    "description": "Perfect for beginners to explore basic features.",
+    "features": [
+      "Access to basic tools",
+      "Limited storage (5GB)",
+      "Community support",
+      "Basic analytics"
+    ],
+    "isPopular": false,
+    "buttonText": "Get Started"
+  },
+  {
+    "id": 2,
+    "plan": "Pro",
+    "price": 19,
+    "billing": "month",
+    "description": "Best for professionals who need more power.",
+    "features": [
+      "All Free features",
+      "Unlimited projects",
+      "20GB storage",
+      "Priority email support",
+      "Advanced analytics"
+    ],
+    "isPopular": true,
+    "buttonText": "Upgrade Now"
+  },
+  {
+    "id": 3,
+    "plan": "Enterprise",
+    "price": 49,
+    "billing": "month",
+    "description": "For teams and businesses with advanced needs.",
+    "features": [
+      "All Pro features",
+      "Unlimited storage",
+      "Team collaboration",
+      "Dedicated support",
+      "Custom integrations"
+    ],
+    "isPopular": false,
+    "buttonText": "Contact Sales"
+  }
+]
