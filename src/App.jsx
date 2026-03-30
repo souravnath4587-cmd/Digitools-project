@@ -57,8 +57,10 @@ function App() {
             </div>
           ) : (
             <div>
-              <p>There is no cart in this section .....</p>
-              <CartProducts selectedProducts={selectedProducts} />
+              <CartProducts
+                selectedProducts={selectedProducts}
+                setSelectedProducts={setSelectedProducts}
+              />
             </div>
           )}
         </div>
