@@ -1,9 +1,7 @@
 import React, { Suspense } from "react";
 import PricingCard from "../ui/PricingCard";
 
-const pricingPromise = fetch("/public/pricingData.json").then((res) =>
-  res.json(),
-);
+const pricingPromise = fetch("/pricingData.json").then((res) => res.json());
 const Transparent = () => {
   return (
     <div className="my-14">
@@ -13,7 +11,7 @@ const Transparent = () => {
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
-      <div className="sectionContent flex flex-col md:flex-row gap-4">
+      <div className="sectionContent ">
         <Suspense fallback={"data is loading...."}>
           <PricingCard pricingPromise={pricingPromise} />
         </Suspense>

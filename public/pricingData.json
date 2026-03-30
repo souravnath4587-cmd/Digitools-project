@@ -4,12 +4,12 @@
     "plan": "Starter",
     "price": 0,
     "billing": "month",
-    "description": "Perfect for beginners to explore basic features.",
+    "description": "Perfect for getting started",
     "features": [
       "Access to basic tools",
-      "Limited storage (5GB)",
+      "Basic templates",
       "Community support",
-      "Basic analytics"
+      "1 project per month"
     ],
     "isPopular": false,
     "buttonText": "Get Started"
@@ -19,7 +19,7 @@
     "plan": "Pro",
     "price": 19,
     "billing": "month",
-    "description": "Best for professionals who need more power.",
+    "description": "Best for professionals",
     "features": [
       "All Free features",
       "Unlimited projects",
@@ -35,7 +35,7 @@
     "plan": "Enterprise",
     "price": 49,
     "billing": "month",
-    "description": "For teams and businesses with advanced needs.",
+    "description": "For teams and businesses",
     "features": [
       "All Pro features",
       "Unlimited storage",
