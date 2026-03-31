@@ -78,7 +78,9 @@ const Navbar = ({ selectedProducts }) => {
             )}
           </div>
           <a className="btn px-4 border-0 bg-white hover:shadow-sm">Login</a>
-          <a className="btn btn-primary rounded-full">Geting Start</a>
+          <a className="btn btn-primary rounded-full hidden md:block">
+            Geting Start
+          </a>
         </div>
       </div>
     </div>

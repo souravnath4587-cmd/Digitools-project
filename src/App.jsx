@@ -9,6 +9,7 @@ import Transparent from "./components/transparents-pricing/Transparent";
 import CartProducts from "./components/ui/CartProducts";
 import Tab from "./components/ui/Tab";
 import { ToastContainer } from "react-toastify";
+import Footer from "./components/footer/Footer";
 
 const fetchProducts = async () => {
   const res = await fetch("/digitalToolsData.json");
@@ -76,6 +77,8 @@ function App() {
       <Steps />
       {/* Transparents Pricing Section  */}
       <Transparent />
+
+      <Footer />
 
       {/* React Toastify  */}
       <ToastContainer />

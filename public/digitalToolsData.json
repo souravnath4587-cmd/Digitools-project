@@ -74,7 +74,7 @@
     "price": 29,
     "period": "one-time",
     "tag": "Best Seller",
-    "img": "public/products/writing_23274001.png",
+    "img": "/products/writing_23274001.png",
     "tagType": "best",
     "features": [
       "200+ components",
@@ -91,7 +91,7 @@
     "price": 10,
     "period": "monthly",
     "tag": "Popular",
-    "img": "public/products/social-media.png",
+    "img": "/products/social-media.png",
     "tagType": "popular",
     "features": [
       "Drag & drop builder",
