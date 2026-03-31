@@ -8,6 +8,7 @@ import Steps from "./components/sections/Steps";
 import Transparent from "./components/transparents-pricing/Transparent";
 import CartProducts from "./components/ui/CartProducts";
 import Tab from "./components/ui/Tab";
+import { ToastContainer } from "react-toastify";
 
 const fetchProducts = async () => {
   const res = await fetch("/digitalToolsData.json");
@@ -47,7 +48,11 @@ function App() {
           />
           {selectedTab === "products" ? (
             <div className="productsSection my-8">
-              <Suspense fallback={"Product data is loading"}>
+              <Suspense
+                fallback={
+                  <span className="loading loading-spinner text-primary"></span>
+                }
+              >
                 <DigitalProducts
                   selectedProducts={selectedProducts}
                   setSelectedProducts={setSelectedProducts}
@@ -58,6 +63,7 @@ function App() {
           ) : (
             <div>
               <CartProducts
+                setSelectedTab={setSelectedTab}
                 selectedProducts={selectedProducts}
                 setSelectedProducts={setSelectedProducts}
               />
@@ -70,6 +76,9 @@ function App() {
       <Steps />
       {/* Transparents Pricing Section  */}
       <Transparent />
+
+      {/* React Toastify  */}
+      <ToastContainer />
     </>
   );
 }

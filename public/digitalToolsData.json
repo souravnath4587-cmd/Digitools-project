@@ -6,6 +6,7 @@
     "price": 9,
     "period": "monthly",
     "tag": "Popular",
+    "img": "products/design-tool.png",
     "tagType": "popular",
     "features": [
       "100+ templates",
@@ -22,6 +23,7 @@
     "price": 19,
     "period": "one-time",
     "tag": "Best Seller",
+    "img": "products/writing_23274001.png",
     "tagType": "best",
     "features": [
       "10+ modern templates",
@@ -38,6 +40,7 @@
     "price": 12,
     "period": "monthly",
     "tag": "New",
+    "img": "/products/operation.png",
     "tagType": "new",
     "features": [
       "Multi-platform posting",
@@ -54,6 +57,7 @@
     "price": 15,
     "period": "one-time",
     "tag": "Popular",
+    "img": "/products/portfolio.png",
     "tagType": "popular",
     "features": [
       "500+ logo templates",
@@ -70,6 +74,7 @@
     "price": 29,
     "period": "one-time",
     "tag": "Best Seller",
+    "img": "public/products/writing_23274001.png",
     "tagType": "best",
     "features": [
       "200+ components",
@@ -86,6 +91,7 @@
     "price": 10,
     "period": "monthly",
     "tag": "Popular",
+    "img": "public/products/social-media.png",
     "tagType": "popular",
     "features": [
       "Drag & drop builder",
@@ -102,6 +108,7 @@
     "price": 25,
     "period": "yearly",
     "tag": "New",
+    "img": "products/design-tool.png",
     "tagType": "new",
     "features": [
       "Invoice generator",
@@ -118,6 +125,7 @@
     "price": 8,
     "period": "monthly",
     "tag": "Best Seller",
+    "img": "/products/writing_23274001.png",
     "tagType": "best",
     "features": [
       "10,000+ images",
