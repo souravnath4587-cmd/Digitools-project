@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Feature from "./Feature";
 import { toast } from "react-toastify";
 
 const Product = ({ product, selectedProducts, setSelectedProducts }) => {
   const { name, tag, price, features, description, period, img } = product;
-  console.log(img);
+  const [buyProduct, setBuyProduct] = useState(false);
 
   const handleProductBuy = (name) => {
     toast(`You take this ${name} product.`);
+    setBuyProduct(true);
     setSelectedProducts([...selectedProducts, product]);
   };
 
@@ -38,8 +39,9 @@ const Product = ({ product, selectedProducts, setSelectedProducts }) => {
                 handleProductBuy(product.name);
               }}
               className="btn btn-primary btn-block rounded-full"
+              disabled={buyProduct}
             >
-              Buy Now
+              {buyProduct === false ? "Buy Now" : "Add to cart"}
             </button>
           </div>
         </div>

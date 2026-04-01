@@ -1,4 +1,5 @@
 import React from "react";
+import { toast } from "react-toastify";
 
 const CartProducts = ({
   selectedProducts,
@@ -14,18 +15,19 @@ const CartProducts = ({
       (item) => item.id !== product.id,
     );
     setSelectedProducts(productFilter);
+    toast(`${product.name} is removed from cart`);
   };
 
   const handleCheckout = () => {
     setSelectedProducts([]);
-    alert("Checkout Successfull..");
+    toast.success("Checkout Successfull..");
     setSelectedTab("products");
   };
 
   return (
     <div className="my-10">
       {selectedProducts.length === 0 ? (
-        <div>There is no products are you buy. Please buy something.</div>
+        <div>There is no products in the cart. Please buy something.</div>
       ) : (
         <div className="rounded-2xl p-6 border-[1px] text-left">
           <h2>Your cart</h2>

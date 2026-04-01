@@ -2,8 +2,8 @@ import React from "react";
 
 const Workflow = () => {
   return (
-    <div className=" py-20 bg-[#7824f9] text-white">
-      <div className="w-sm md:w-4xl  mx-auto text-center !space-y-4">
+    <div className=" py-20 bg-[#7824f9] text-white ">
+      <div className="w-sm md:w-3xl lg:w-4xl  mx-auto text-center !space-y-4">
         <h1 className="!text-white text-2xl md:text-3xl">
           {" "}
           Ready To Transform Your Workflow?

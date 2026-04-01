@@ -4,10 +4,10 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="bg-[#101727] p-14">
-      <div className="w-sm mx-auto md:w-4xl flex flex-col gap-6 md:flex-row justify-between text-white">
-        <div className=" md:text-left  ">
+      <div className="w-sm mx-auto lg:w-4xl flex flex-col gap-6 lg:flex-row justify-between text-white">
+        <div className=" lg:text-left  ">
           <h1 className="!text-white !mt-0 ">DigiTools</h1>
-          <p className="w-sm md:w-[300px] ">
+          <p className="w-sm lg:w-[300px] ">
             Premium digital tools for creators, professionals, and businesses.
             Work smarter with our suite of powerful tools.
           </p>
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
         <div className="!space-y-2">
           <h3 className="text-2xl !font-bold">Social Links</h3>
-          <div className="flex flex-row gap-4 justify-center md:justify-start items-center">
+          <div className="flex flex-row gap-4 justify-center lg:justify-start items-center">
             <a className="p-2 rounded-full bg-[#0537ff] " href="">
               <FaInstagram />
             </a>
@@ -52,7 +52,7 @@ const Footer = () => {
 
       <hr className="border-white my-10" />
 
-      <div className="flex flex-col md:flex-row justify-between itmes-center text-white ">
+      <div className="flex flex-col lg:flex-row justify-between itmes-center text-white ">
         <p>© 2026 Digitools. All rights reserved.</p>
         <div className="flex flex-col md:flex-row justify-between gap-4">
           <p>Privacy Policy </p>
