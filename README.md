@@ -1,16 +1,51 @@
-# React + Vite
+# 🚀 DigiTools - Digital Tools Projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+**DigiTools** is a modern web application where users can explore, select, and manage various digital tools such as AI resume builders, portfolio kits, UI systems, and more.
+The project is built using **React.js** with a focus on clean UI, responsiveness, and user-friendly interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🛒 Add to Cart system
+* ❌ Remove and check out products
+* 💰 Total price calculation
+* 🔔 React Toastify notification.
+* 📱 Fully responsive design (Tailwind CSS)
+* 🎯 Filter products (Popular / New / Best Seller)
+* ⚡ Fast performance with Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+* React.js
+* Tailwind CSS
+* DaisyUI
+* React Toastify
+* JavaScript (ES6+)
+* Vite
+
+---
+
+
+## 📊 Data Structure (Example)
+
+Each product contains:
+
+* id
+* name
+* description
+* price
+* period (monthly / yearly / one-time)
+* tag (popular / new / best seller)
+* features (array)
+* icon
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
